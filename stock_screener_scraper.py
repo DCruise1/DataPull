@@ -142,3 +142,4 @@ if file_exists:
 else:
     df.to_csv('stocks.csv', mode='w', header=True, index=False)
 print(f"Appended {len(df)} unique stocks to stocks.csv with date {current_date} {am_pm}") 
+
