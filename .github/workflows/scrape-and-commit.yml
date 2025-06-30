@@ -8,7 +8,7 @@ on:
     # 5am UK time: 4am UTC (BST), 5am UTC (GMT)
     - cron: "0 4 * * *"
     # 1pm UK time: 12pm UTC (BST), 13pm UTC (GMT)
-    - cron: "0 12 * * *"
+    - cron: "0 14 * * *"
 
 jobs:
   scrape:
